@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions
+    xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+    <suppress>
+        <notes><![CDATA[
+          junit-platform-engine is not Caoyongqi912/Fan_Platform
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.junit\.platform/junit\-platform\-engine@.*$
+        </packageUrl>
+        <cpe>cpe:/a:fan_platform_project:fan_platform</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+          junit-jupiter-engine is not Caoyongqi912/Fan_Platform
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.junit\.jupiter/junit\-jupiter\-engine@.*$
+        </packageUrl>
+        <cpe>cpe:/a:fan_platform_project:fan_platform</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+          junit-platform-commons is not Caoyongqi912/Fan_Platform
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.junit\.platform/junit\-platform\-commons@.*$
+        </packageUrl>
+        <cpe>cpe:/a:fan_platform_project:fan_platform</cpe>
+    </suppress>
+</suppressions>
