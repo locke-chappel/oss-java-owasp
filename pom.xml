@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.github.lc.oss</groupId>
+        <groupId>com.github.locke-chappel.oss</groupId>
         <artifactId>parent</artifactId>
         <version>1.0.0</version>
     </parent>
@@ -13,8 +13,33 @@
     <artifactId>owasp</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
-
     <name>OSS OWASP Suppression Rules</name>
+    <description>Common definition of all verified false positives for OWASP Dependency Checker plugin as it relates com.github.locke-chappel.oss projects</description>
     <url>https://github.com/locke-chappel/oss-owasp</url>
 
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>locke-chappel</id>
+            <name>Locke-Chappel</name>
+        </developer>
+    </developers>
+  
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/locke-chappel/oss-owasp/issues</url>
+    </issueManagement>
+    
+    <scm>
+        <connection>scm:git:git://github.com/locke-chappel/oss-wasp.git</connection>
+        <developerConnection>scm:git:ssh://github.com:locke-chappel/oss-owasp.git</developerConnection>
+        <url>https://github.com/locke-chappel/oss-owasp</url>
+    </scm>
+    
 </project>
