@@ -1,6 +1,6 @@
 OSS OWASP Suppression Rules
 ==
-This artifact contains verified false positive definitions for all projects in the com.github.lc.oss package space.
+This artifact contains verified false positive definitions for all projects in the io.github.lc.oss package space.
 
 ### Special Build Note
 To simplify configuration and to ensure downstream projects always use the latest CVE configurations, the build process for this artifact has a special pre-build step - all XML files in src/main/resources are merged into src/main/resources/all.xml. This all.xml files does not exist in the raw source code but is instead compiled at build time as a resource for the maven build process. This pre-compile process helps ensure a single version of the truth for all CVE rules.
