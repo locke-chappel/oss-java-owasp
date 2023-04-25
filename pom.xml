@@ -5,11 +5,11 @@
     <parent>
         <groupId>io.github.locke-chappel.oss</groupId>
         <artifactId>parent</artifactId>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
     </parent>
     
     <artifactId>owasp</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <packaging>jar</packaging>
     <name>OSS OWASP Suppression Rules</name>
     <description>Common definition of all verified false positives for OWASP Dependency Checker plugin as it relates io.github.locke-chappel.oss projects</description>
