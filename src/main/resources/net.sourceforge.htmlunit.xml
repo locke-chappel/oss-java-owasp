@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+   <suppress>
+      <notes><![CDATA[
+        htmlunit-core-js is not net.sourceforge.htmlunit:htmlunit
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/net\.sourceforge\.htmlunit/htmlunit\-core\-js@.*$</packageUrl>
+      <cpe>cpe:/a:htmlunit_project:htmlunit</cpe>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+        neko-htmlunit is not net.sourceforge.htmlunit:htmlunit
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/net\.sourceforge\.htmlunit/neko\-htmlunit@.*$</packageUrl>
+      <cpe>cpe:/a:htmlunit_project:htmlunit</cpe>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+        htmlunit-xpath is not net.sourceforge.htmlunit:htmlunit
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/net\.sourceforge\.htmlunit/htmlunit\-xpath@.*$</packageUrl>
+      <cpe>cpe:/a:htmlunit_project:htmlunit</cpe>
+   </suppress>
+   <suppress>
+      <notes><![CDATA[
+        htmlunit-2.70.0 is used by Selenium HTML Unit Driver - used in a testing context so this CVE is not an issue.
+        This rule will be removed once there is an upstream fix available (e.g. migration from 
+        net.sourceforge.htmlunit to org.htmlunit).
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/net\.sourceforge\.htmlunit/htmlunit@.*$</packageUrl>
+      <cve>CVE-2023-26119</cve>
+   </suppress>
+</suppressions>
