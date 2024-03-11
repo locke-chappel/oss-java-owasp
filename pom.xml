@@ -13,7 +13,7 @@
     <packaging>jar</packaging>
     <name>OSS OWASP Suppression Rules</name>
     <description>Common definition of all verified false positives for OWASP Dependency Checker plugin as it relates io.github.locke-chappel.oss projects</description>
-    <url>https://github.com/locke-chappel/oss-owasp</url>
+    <url>https://github.com/locke-chappel/oss-java-owasp</url>
 
     <licenses>
         <license>
