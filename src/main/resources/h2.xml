@@ -7,11 +7,4 @@
       <packageUrl regex="true">^pkg:maven/com\.h2database/h2@(?:[1-9][0-9]+|[2-9])\..*$</packageUrl>
       <vulnerabilityName>CVE-2018-14335</vulnerabilityName>
    </suppress>
-   <suppress>
-      <notes><![CDATA[
-        CVE only applies to starting the admin console via CLI which Java apps don't do. 
-      ]]></notes>
-      <packageUrl regex="true">^pkg:maven/com\.h2database/h2@.*$</packageUrl>
-      <vulnerabilityName>CVE-2022-45868</vulnerabilityName>
-   </suppress>
 </suppressions>
