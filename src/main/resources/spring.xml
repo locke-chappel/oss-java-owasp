@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+   <suppress until="2025-10-01Z">
+      <notes><![CDATA[
+          CVE is not well defined and lacks CVSS score from NIST, CNA scores as 5.9 - do not block builds.
+          
+          Also doesn't apply since my projects use Tomcat and do not bypass the existing controls.
+      ]]></notes>
+      <vulnerabilityName>CVE-2025-41242</vulnerabilityName>
+   </suppress>
+</suppressions>
